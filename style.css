@@ -1,20 +1,33 @@
 
-body { 
-
-background-color: aqua;
+li:nth-child(13) {  font-size: 30px;
+    color: purple ;
+    border: 1px solid green
 
 }
+li:nth-child(13):hover {
 
-.para:hover{
+      color: red
+}
 
-
- background-color: chocolate;
+li:first-child { font-size:20pz;
+    color: red; 
+    border: 1px solid blue;
     
 }
+li:first-child:hover {
 
-#nara-para {
-
-font-size: 1x;
-color:blueviolet
+  color:green
 
 }
+
+li:last-child  {font-size:10pz;
+    color: silver ; 
+    border: 1px solid grey;
+
+    
+}
+li:last-child:hover {
+
+    color:blue
+  
+  }
