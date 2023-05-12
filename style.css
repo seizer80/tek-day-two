@@ -1,33 +1,22 @@
+table {
+    width: 200px;
+    height: 300px;
+    text-align: center;
+    border: 5px solid green;
+ }
+ 
+ th, td {
+    border: 1px solid red;
+ }
+ 
+ td:hover {
+    background-color: lightcoral;
+    color: white;
+ }
 
-li:nth-child(13) {  font-size: 30px;
-    color: purple ;
-    border: 1px solid green
+  th:nth-child(1) {
 
-}
-li:nth-child(13):hover {
-
-      color: red
-}
-
-li:first-child { font-size:20pz;
-    color: red; 
-    border: 1px solid blue;
-    
-}
-li:first-child:hover {
-
-  color:green
-
-}
-
-li:last-child  {font-size:10pz;
-    color: silver ; 
-    border: 1px solid grey;
-
-    
-}
-li:last-child:hover {
-
-    color:blue
-  
-  }
+    border:1px solid red ;
+    text-align: right
+ }
+ 
